@@ -1,0 +1,19 @@
+.column {
+	float: center;
+	width: 50%;
+	padding: 5px;
+} /* End Column */
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+} /* End Row After */
+
+.rotateimg90 {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+} /* End rotate image */
